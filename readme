@@ -1,0 +1,11 @@
+1. Added in to the git
+2. Start Creating from scratch every file
+3. Header, Footer, Main Content Page
+4. when click on the header menu go to that Page
+5. On Home Page fetch all the movies
+6. Search menu functionality
+
+
+
+Source
+React, React Router, .env, Redux, localstorage, bootstrap, 
