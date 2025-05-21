@@ -5,10 +5,10 @@ import Header from "./Header";
 
 export default function App() {
   return (
-    <>
+    <div className="bg-dark">
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }

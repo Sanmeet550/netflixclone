@@ -11,14 +11,13 @@ import Col from "react-bootstrap/Col";
 
 export default function Header() {
   return (
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar expand="lg" bg="secondary" variant="dark">
       <Container>
         <Navbar.Brand href="/">Movie</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="popular">Popular</Nav.Link>
+            <Nav.Link href="/">Popular</Nav.Link>
             <Nav.Link href="top-rated">Top Rated</Nav.Link>
             <Nav.Link href="upcoming">Upcoming</Nav.Link>
           </Nav>
